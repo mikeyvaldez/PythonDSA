@@ -10,7 +10,7 @@ def max_value(nums):
     maxValue = float('-inf')
     
     for x in nums:
-        if(x > maxValue):
+        if x > maxValue:
             maxValue = x
 
     return maxValue
